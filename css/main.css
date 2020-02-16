@@ -1,0 +1,15 @@
+body {
+    background-color: #00221F;;
+    display: flex;
+    justify-content: center;
+}
+
+#body-middle {
+    background-color: #599D7E;
+    flex-basis: 900px;
+    max-width: 900px;
+    min-width: 450px;
+    border: 20px double #00221F;
+    padding: 15px;
+}
+
