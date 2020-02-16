@@ -1,0 +1,17 @@
+article section {
+    background-color: #00221F;
+    padding: 5px 10px 5px 10px;
+    margin-bottom: 10px;
+    border: 10px double #599D7E;
+}
+
+article section:nth-child(even) {
+    color: #3EB8A4;
+}
+
+article section h2 {
+    font-family: 'Aldrich', sans-serif;
+    color: #6FF6DB;
+    text-align: center;
+    font-size: 1.5rem;
+}
