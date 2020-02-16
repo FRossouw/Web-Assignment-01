@@ -1,0 +1,32 @@
+.experience {
+    display: flex;
+    margin: 10px 10px 40px 10px;
+}
+
+.experience .col-left {
+    min-width: 150px;
+    max-width: 150px;
+    margin-right: 20px;
+}
+
+.experience .col-left img {
+    width: 100%;
+    border: 3px solid #599D7E;
+    border-radius: 10px;
+    opacity: .8;
+}
+
+.experience .col-right {
+    flex-grow: 1;
+}
+
+.experience .col-right h3 {
+    margin: 0px 0px -15px 0px;
+    color: #6FF6DB;
+    font-size: 1.5rem;
+}
+
+.experience .col-right .date {
+    color: #599D7E;
+    margin-bottom: -10px;
+}
