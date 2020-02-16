@@ -1,0 +1,36 @@
+header {
+    min-height: 250px;
+    display: flex;
+    margin-bottom: 10px;
+}
+
+header div:first-child {
+    min-width: 100px;
+    max-width: 300px;
+}
+
+header div img {
+    position: relative;
+    width: 90%;
+    border-radius: 70px;
+    left: 5%;
+    border: 2px solid #00221F;
+}
+
+header div:nth-child(2) {
+    display: flex;
+    flex-direction: column;
+}
+
+header div:nth-child(2) h1 {
+    font-family: 'Special Elite', cursive;
+    font-size: 3rem;
+    margin-bottom: -3px;
+    color: #6FF6DB;
+}
+
+header div:nth-child(2) div {
+    font-family: 'Aldrich', sans-serif;
+    font-size: 1.5rem;
+    color: #00221F;
+}
