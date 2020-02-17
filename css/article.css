@@ -6,7 +6,7 @@ article section {
 }
 
 article section:nth-child(even) {
-    color: #3EB8A4;
+    color: #599D7E;
 }
 
 article section h2 {
@@ -20,6 +20,7 @@ article section h2 {
 article section h2:hover {
     color: #6FF6DB;
     font-size: 2rem;
+    font-family: 'Special Elite', cursive;
 }
 
 article section h2:after {

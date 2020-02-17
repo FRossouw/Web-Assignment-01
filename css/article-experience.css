@@ -30,3 +30,14 @@
     color: #599D7E;
     margin-bottom: -10px;
 }
+
+
+.experience:hover {
+    color: #3EB8A4;
+    padding: 5px;
+    font-family: 'Lacquer', sans-serif;
+}
+
+
+
+
