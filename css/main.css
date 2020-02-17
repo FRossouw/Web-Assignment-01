@@ -1,5 +1,7 @@
+
 body {
-    background-color: #00221F;;
+    height: 100%;
+    background: radial-gradient(ellipse at bottom, #1B2230 0%, #00221F 100%);
     display: flex;
     justify-content: center;
 }
@@ -12,4 +14,5 @@ body {
     border: 20px double #00221F;
     padding: 15px;
 }
+
 
