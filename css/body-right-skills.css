@@ -1,0 +1,27 @@
+#body-right {
+    color: #00221F;
+}
+
+#body-right #nav-to-skills h1 {
+    margin-bottom: -20px;
+    font-family: 'Aldrich', sans-serif;
+}
+
+#body-right #nav-to-skills h5 a {
+    text-decoration: none;
+    font-family: 'Aldrich', sans-serif;
+    color: #6FF6DB;
+    text-align: center;
+    font-size: 1rem;
+    padding: 5px;
+}
+
+#body-right #nav-to-skills h5 {
+    text-align: right;
+    margin: 0px;
+}
+
+#body-right #nav-to-skills h5 a:hover {
+    text-decoration: none;
+    color: #0D7666;
+}
