@@ -15,13 +15,34 @@ article section h2 {
     text-align: center;
     font-size: 1.5rem;
     padding: 5px;
+    margin-bottom: -10px;
 }
 
 article section h2:hover {
     color: #6FF6DB;
-    font-size: 2rem;
+    font-size: 1.7rem;
     font-family: 'Special Elite', cursive;
 }
+
+article section h5 {
+    text-align: right;
+    margin: 0px;
+}
+
+article section h5 a {
+    text-decoration: none;
+    font-family: 'Aldrich', sans-serif;
+    color: #6FF6DB;
+    text-align: center;
+    font-size: 1rem;
+    padding: 5px;
+}
+
+article section h5 a:hover {
+    text-decoration: none;
+    color: #599D7E;
+}
+
 
 article section h2:after {
     overflow: hidden;
