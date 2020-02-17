@@ -1,6 +1,7 @@
 .experience {
     display: flex;
     margin: 10px 10px 40px 10px;
+    font-family: 'Aldrich', sans-serif;
 }
 
 .experience .col-left {
@@ -34,8 +35,8 @@
 
 .experience:hover {
     color: #3EB8A4;
-    padding: 5px;
-    font-family: 'Lacquer', sans-serif;
+    padding: 3px;
+    font-family: 'Aldrich', sans-serif;
 }
 
 
