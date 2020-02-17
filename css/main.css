@@ -30,4 +30,6 @@ body {
     min-width: 300px;
     border: 20px double #00221F;
     padding: 15px;
+    height: fit-content;
 }
+
