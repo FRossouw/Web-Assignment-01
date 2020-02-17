@@ -1,0 +1,17 @@
+@media only screen and (max-width: 1375px) {
+    body {
+    }
+
+    #body-left {
+        order: 2;
+    }
+
+    #body-middle {
+        order: 0;
+    }
+
+    #body-right {
+        order: 1;
+    }
+
+}
