@@ -1,9 +1,18 @@
-
 body {
     height: 100%;
     background: radial-gradient(ellipse at bottom, #1B2230 0%, #00221F 100%);
     display: flex;
-    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+#body-left nav{
+    background-color: #599D7E;
+    max-width: 300px;
+    min-width: 300px;
+    border: 20px double #00221F;
+    padding: 15px;
+    height: fit-content;
 }
 
 #body-middle {
@@ -15,4 +24,10 @@ body {
     padding: 15px;
 }
 
-
+#body-right {
+    background-color: #599D7E;
+    max-width: 300px;
+    min-width: 300px;
+    border: 20px double #00221F;
+    padding: 15px;
+}

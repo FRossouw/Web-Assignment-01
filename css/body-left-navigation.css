@@ -1,0 +1,11 @@
+#navigation nav {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+ }
+
+
+#navigation nav a {
+    text-decoration: none;
+    color: #6FF6DB;
+}
