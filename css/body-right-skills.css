@@ -3,7 +3,7 @@
 }
 
 #body-right #nav-to-skills h1 {
-    margin-bottom: -20px;
+    margin-bottom: -10px;
     font-family: 'Aldrich', sans-serif;
 }
 
@@ -23,5 +23,18 @@
 
 #body-right #nav-to-skills h5 a:hover {
     text-decoration: none;
+    color: #0D7666;
+}
+
+#body-right #nav-to-skills ol {
+    list-style: none;
+    margin-left: -20px;
+}
+
+#body-right #nav-to-skills .skill-rating-stars {
+    color: #00221F;
+}
+
+#body-right #nav-to-skills .skill-rating-stars-empty {
     color: #0D7666;
 }
