@@ -31,5 +31,6 @@ body {
     border: 20px double #00221F;
     padding: 15px;
     height: fit-content;
+    flex-direction: row;
 }
 
