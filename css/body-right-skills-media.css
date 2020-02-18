@@ -1,0 +1,16 @@
+@media only screen and (max-width: 1739px) {
+    #body-right {
+        max-width: 450px;
+        flex-shrink: 1;
+        display: flex;
+    }
+    #body-right #nav-to-skills #skills-container {
+        display: flex;
+    }
+}
+
+@media only screen and (max-width: 1374px) {
+    #nav-to-nav {
+        visibility: visible;
+    }
+}

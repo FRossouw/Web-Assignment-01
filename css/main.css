@@ -15,6 +15,16 @@ body {
     height: fit-content;
 }
 
+#body-left #nav-to-current-work {
+    background-color: #599D7E;
+    max-width: 300px;
+    min-width: 300px;
+    border: 20px double #00221F;
+    padding: 15px;
+    height: fit-content;
+    color: #00221F;
+}
+
 #body-middle {
     background-color: #599D7E;
     flex-basis: 900px;

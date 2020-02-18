@@ -8,6 +8,7 @@
     color: #00221F;
     text-decoration: none;
     font-family: 'Aldrich', sans-serif;
+    font-size: 2rem;
     width: fit-content;
     margin: 0px 0px 10px 0px;
 }
@@ -24,4 +25,8 @@
     border-right: 2px solid #0D7666;
     border-bottom: 2px solid #0D7666;
     border-radius: 130px;
+}
+
+#nav-to-nav {
+    visibility: hidden;
 }
