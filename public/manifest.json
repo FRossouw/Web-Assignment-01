@@ -1,0 +1,16 @@
+{
+    "name": "Francois Rossouw",
+    "short_name": "FJR",
+    "icons": [
+        {
+            "src": "images/dvt-square.png",
+            "sizes": "200x200",
+            "type": "image/png"
+        }
+    ],
+    "lang": "en-US",
+    "start_url": "/index.html",
+    "display": "standalone",
+    "background_color": "white",
+    "theme_color": "black"
+}
