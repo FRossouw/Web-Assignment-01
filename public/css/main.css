@@ -20,7 +20,7 @@ body {
     background-color: #599D7E;
     flex-basis: 900px;
     max-width: 900px;
-    min-width: 450px;
+    min-width: 400px;
     border: 20px double #00221F;
     padding: 15px;
 }
