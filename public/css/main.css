@@ -1,3 +1,7 @@
+html {
+    overflow-x: hidden;
+}
+
 body {
     height: 100%;
     background: radial-gradient(ellipse at bottom, #1B2230 0%, #00221F 100%);
