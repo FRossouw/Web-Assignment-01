@@ -1,0 +1,116 @@
+#navigation-bar {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 15px;
+}
+
+#navigation-bar a {
+    background-color: #599D7E;
+    text-decoration: none;
+    font-family: 'Aldrich', sans-serif;
+    padding: 10px;
+    margin: 5px;
+    color: #6FF6DB;
+    border-top: 2px solid #6FF6DB;
+    border-right: 2px solid #333333;
+    border-bottom: 2px solid #333333;
+    border-left: 2px solid #6FF6DB;
+}
+
+#navigation-bar a:hover {
+    background-color: #599D7E;
+    text-decoration: none;
+    font-family: 'Aldrich', sans-serif;
+    padding: 10px;
+    margin: 5px;
+    color: #6FF6DB;
+    position: relative;
+    top: 2px;
+    border-top: 2px solid #333333;
+    border-right: 2px solid #6FF6DB;
+    border-bottom: 2px solid #6FF6DB;
+    border-left: 2px solid #333333;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    max-width: 850px;
+    min-width: 850px;
+    z-index: 200;
+}
+
+.sticky + body {
+    padding-top: 60px;
+}
+
+@media only screen and (max-width: 1047px) { 
+
+    .sticky {
+        min-width: 850px;
+    }
+
+}
+
+@media only screen and (max-width: 1000px) { 
+
+    .sticky {
+        max-width: 800px;
+        min-width: 800px;
+    }
+
+}
+
+@media only screen and (max-width: 950px) { 
+
+    .sticky {
+        min-width: 700px;
+        max-width: 700px;
+    }
+
+}
+
+@media only screen and (max-width: 850px) { 
+
+    .sticky {
+        min-width: 600px;
+        max-width: 600px;
+    }
+
+}
+
+@media only screen and (max-width: 750px) { 
+
+    .sticky {
+        min-width: 500px;
+        max-width: 500px;
+    }
+
+}
+
+@media only screen and (max-width: 650px) { 
+
+    .sticky {
+        min-width: 400px;
+        max-width: 400px;
+    }
+
+}
+
+@media only screen and (max-width: 520px) { 
+
+    .sticky {
+        min-width: 370px;
+        max-width: 370px;
+    }
+
+}
+
+@media only screen and (max-width: 500px) { 
+
+    .sticky {
+        min-width: 350px;
+        max-width: 350px;
+    }
+
+}
