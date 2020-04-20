@@ -1,3 +1,7 @@
+html {
+    overflow-x: hidden;
+}
+
 body {
     height: 100%;
     background: radial-gradient(ellipse at bottom, #1B2230 0%, #00221F 100%);
@@ -6,16 +10,7 @@ body {
     justify-content: space-evenly;
 }
 
-#body-left nav{
-    background-color: #599D7E;
-    max-width: 300px;
-    min-width: 300px;
-    border: 20px double #00221F;
-    padding: 15px;
-    height: fit-content;
-}
-
-#body-left #nav-to-current-work {
+#body-left #nav-to-current-work, nav {
     background-color: #599D7E;
     max-width: 300px;
     min-width: 300px;
@@ -29,7 +24,7 @@ body {
     background-color: #599D7E;
     flex-basis: 900px;
     max-width: 900px;
-    min-width: 450px;
+    min-width: 400px;
     border: 20px double #00221F;
     padding: 15px;
 }

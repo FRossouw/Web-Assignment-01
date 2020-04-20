@@ -1,0 +1,78 @@
+@media only screen and (max-width: 414px) {
+    body {
+        margin: -1px;
+    }
+
+    #body-middle {
+        max-width: 290px;
+        min-width: 290px;
+    }
+
+    #body-right #nav-to-skills ol {
+        max-width: 60px;
+        min-width: 60px;
+    }
+
+    #body-right #nav-to-skills #skills-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #body-left #nav-to-current-work {
+        max-width: 200px;
+        min-width: 200px;;
+    }
+
+    #body-left #nav-to-current-work img {
+        width: 80%;
+    }
+
+    #body-middle header {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    #body-middle header h1{
+        font-size: 2rem;
+    }
+
+    #body-middle div:first-child {
+        max-width: 80%;
+        min-width: 80%;
+        position: relative;
+        left: 10%;
+    }
+
+    #body-middle div:nth-child(2) div {
+        font-size: 1rem;
+    }
+
+    #body-middle article section:nth-child(odd) h2 { 
+        font-size: 1rem;
+    }
+
+    #navigation-bar {
+        max-width: 150px;
+        min-width: 150px;
+        visibility: hidden;
+    }
+    
+    #body-middle .experience table {
+        font-size: 0.3rem;
+    }
+
+    #body-middle .experience .col-left {
+        min-width: 50px;
+        max-width: 50px;
+        margin-left: -30px;
+        margin-right: 40px;
+    }
+
+    #body-middle .experience .col-right h3 {
+        font-size: 0.9rem;
+    }
+
+
+}
+

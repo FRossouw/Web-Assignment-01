@@ -16,6 +16,7 @@
     background-color: #111111;
     border-radius: 10px;
     opacity: .8 ;
+    z-index: auto;
 }
 
 .experience .col-right {
@@ -40,6 +41,11 @@
     font-family: 'Aldrich', sans-serif;
 }
 
-
+@media only screen and (max-width: 1300px) {
+    .experience .col-left {
+        max-width: 50px;
+        min-width: 50px;
+    }
+}
 
 
